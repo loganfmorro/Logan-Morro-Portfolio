@@ -12,7 +12,12 @@ body {
 }
 
 .row {
+    padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#rowContact {
+    padding: 20px
 }
 
 /* background color*/
@@ -33,7 +38,7 @@ p {
 .portfolioImage {
     display:block;
     margin:auto;
+    padding: 20px;
     width: 210px;
     height: 210px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
