@@ -12,6 +12,10 @@
     <!--Style.CSS-->
     <link href="Assets/style.css" rel="stylesheet">
 
+    <!--JavaScript-->
+    <script src="Assets/script.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+
     <title>Logan Morro Coding Portfolio</title>
   </head>
   <body>
@@ -27,11 +31,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -42,31 +46,35 @@
 
     <br><br>
     <!--Portfolio Container-->
-    <div class="container">
+    <div id="portfolioContainer" class="container">
 
       <!--Row 1-->
       <div class="row">
         <div class="col-md">
-          <h1 style="text-align: center;">My Portfolio</h1>
+          <h1 style="text-align: center; color: white;"><strong>My Portfolio</strong></h1>
         </div>
       </div>
       <br>
       <!--Row 2-->
       <div class="row">
         <div class="col-md">
-          <img class="portfolioImage" src="Assets/imageplaceholder.jpg" alt="Image Placeholder">
+          <img class="portfolioImage" src="Assets/quizzoSS.png" alt="Quizzo JavaScript">
+          <span class="caption">JavaScript Quizzo</span>
         </div>
         <div class="col-md">
-          <img class="portfolioImage" src="Assets/imageplaceholder.jpg" alt="Image Placeholder">
+          <img class="portfolioImage" src="Assets/passwordGenSS.png" alt="Password Generator">
+          <span class="caption">Password Generator</span>
         </div>
         <div class="col-md">
-          <img class="portfolioImage" src="Assets/imageplaceholder.jpg" alt="Image Placeholder">
+          <img class="portfolioImage" src="Assets/dayPlannerSS.png" alt="Day Planner">
+          <span class="caption">Day Planner</span>
         </div>
       </div>
       <!--Row 3-->
       <div class="row">
         <div class="col-md">
-          <img class="portfolioImage" src="Assets/imageplaceholder.jpg" alt="Image Placeholder">
+          <img class="portfolioImage" src="Assets/stockUpSS.png" alt="Stock Up Project">
+          <span id="stockUpIMG" class="caption">Stock Up Project</span>
         </div>
         <div class="col-md">
           <img class="portfolioImage" src="Assets/imageplaceholder.jpg" alt="Image Placeholder">
