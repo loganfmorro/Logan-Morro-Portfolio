@@ -1,6 +1,5 @@
-# loganfmorro.github.io
+# Logan Morro's Portfolio Page
 
-Homework #2
     I've created three HTML pages linked to each other using BootStrap and CSS.
 
     The pages I've created are:
@@ -16,7 +15,4 @@ Homework #2
 
     I pre-planned how I wanted my portfolio grid to look before building the page then started mapping out the rows, columns, subrows, and subcolumns to get it going. I struggled at first to get the images in a functioning, responsive grid on my portfolio page. I took a few hours and asked a few different resources for resolutions and eventually got it working properly. 
 
-    Overall, I really enjoyed the assignment and look forward to continually modifying this page as I master more concepts!
-
-    Thanks,
-        Logan
+# Screenshots
